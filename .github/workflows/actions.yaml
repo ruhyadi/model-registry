@@ -1,8 +1,8 @@
 name: CI Model
 
-on:
-  release:
-    types: [released]
+# on:
+#   release:
+#     types: [released]
 
 env:
   IMAGE_NAME: ${{ github.repository }}:${{ github.ref_name }}
